@@ -1,0 +1,20 @@
+<section>
+    <div class="row">
+                      <div class=" col-sm-12  ">
+                          <ol class="breadcrumb">
+                              <li class="breadcrumb-item">Home</li>
+                              <li class="breadcrumb-item active">Sports</li>
+                          </ol>
+                      </div>
+         </div>
+         <div class="row well">
+                <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12">
+                <div *ngFor="let item of items" class="col-sm-12 col-md-2 col-xs-12 col-lg-2">
+              <img src={{item.image}} alt="item"/>
+              <span>Name :{{item.name}}</span>
+              <span>price :{{item.price}}</span>
+                </div>
+              </div> 
+               </div>
+        </section>
+  

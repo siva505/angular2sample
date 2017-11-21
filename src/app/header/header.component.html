@@ -1,0 +1,67 @@
+<header>
+  
+    <nav class="navbar navbar-default navbar-static-top navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+         <div class="navbar-brand navbar-brand-custom"><img src="assets/images/logo.png"  alt="Just" width="200px" height="35px"></div>  		 </div>
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                 <span class="sr-only">Toggle navigation</span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+               </button>
+  
+  
+         <!-- <div class="navbar-collapse collapse" id="navbar-main"> -->
+     <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav custom-nav">
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="About">Men</a>
+                <ul class="dropdown-menu" aria-labelledby="Maintenance">
+                  <li><a href="#Tshirts"  routerLink="/about" >T-Shirts</a></li>
+                  <li><a href="#Casula">Casula Shirts</a></li>
+                  <li><a href="#Partyware">Partyware</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle"  data-toggle="dropdown" href="#" id="Investors">Women</a>
+                 <ul class="dropdown-menu" aria-labelledby="Maintenance">
+                  <li><a href="#Kutal"  routerLink="/invest" >Kutal & Suits</a></li>
+                  <li><a href="#Caps">Caps hats</a></li>
+                  <li><a href="#Footwear">Footwear</a></li>                 
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#Media" id="Media">Kids</a>
+                <ul class="dropdown-menu" aria-labelledby="Maintenance">
+                  <li><a href="#Tshirts"  routerLink="/media" >T-shirts</a></li>
+                  <li><a href="#shirts">shirts</a></li>
+                  <li><a href="#Footwear">Footwear</a></li>                 
+                </ul>
+              </li>
+              <li>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#Careers" id="Careers">Sports</a>
+                <ul class="dropdown-menu" aria-labelledby="Maintenance">
+                  <li><a href="#SportShoes"  routerLink="/career" >SportShoes</a></li>
+                  <li><a href="#shirts">formalShoes</a></li>
+                  <li><a href="#Runningshoe">Runningshoe</a></li>                 
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" routerLink="/contact" data-toggle="dropdown" href="#Contact" id="Contact">Contact us</a>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav custom-nav pull-right account">
+                <li class="dropdown" style="border-right:none">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="account">Your Cart</a>
+                    <ul class="dropdown-menu" aria-labelledby="Maintenance">
+                        <li><a href="#shirts">No of Items:{{count}}</a></li>
+                        <li><a href="#Runningshoe">Total Amt:{{total}}</a></li>                 
+                      </ul>
+                </li>
+                </ul>
+       </div>
+          </div>
+      </nav>
+  
+    </header>

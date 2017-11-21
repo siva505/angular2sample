@@ -1,0 +1,137 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    /*background-color:#f4f2f2;*/
+    background-color:aliceblue;
+   color:white;
+   }
+   img {
+     margin-top: 2px;
+   }
+   .navbar-toggle-custom{
+      margin-top: 11px;
+   }
+   .navbar-brand-custom{
+      height: 45px;
+   }
+   .navbar-bottom-custom{
+       min-height:20px;
+       max-height:20px;
+   }
+   .custom-nav{
+       margin-top:11px;
+   }
+    ul li:hover ul.dropdown-menu{
+            display: block;	/* Display the dropdown */
+    }
+   section{
+   margin-top: 44px;
+       color: black;
+       box-shadow: -1px 0px 29px rgba(0,0,0,0.3);
+       -moz-box-shadow: -1px 0px 29px rgba(0,0,0,0.3);
+       /* -webkit-box-shadow: -10px 0px 5px rgba(0,0,0,0.6); */
+       -o-box-shadow: -1px 0px 29px rgba(0,0,0,0.3);
+       background-color: white;
+   }
+   .nav-menu{
+   margin-top:39px;
+   }
+   .new-btn{
+       height:24px;
+       width:64px;
+       font-size:10px;
+   }
+   
+   .m-t-5{
+       margin-top:6px;
+   }
+   .m-r-15{
+       margin-right:-15px;
+   }
+   .m-r-4{
+       margin-right:-4px;
+   }
+   
+   .m-t-7{
+       margin-top:-7px;
+   }
+   @media (min-width: 768px) and (max-width: 1270px) {
+       .navbar-default .navbar-nav > li > a {
+     padding-right:9px;
+     font-size:14px;
+   }
+   .account{
+   margin-right:0px;
+   }
+   }
+   
+   @media (min-width: 320px) and (max-width: 768px) {
+       section{
+         margin-bottom: 15px;
+         margin-top:42px;
+         color:black;
+         min-height: 100%;
+   
+             /* border: solid 1px #555; */
+             background-color: white;
+             box-shadow: -1px 0px 29px rgba(0,0,0,0.6);
+             -moz-box-shadow: -10px 0px 5px rgba(0,0,0,0.6);
+             /* -webkit-box-shadow: -10px 0px 5px rgba(0,0,0,0.6); */
+             -o-box-shadow: -10px 0px 5px rgba(0,0,0,0.6);
+       }
+       .navbar-bottom-custom{
+           min-height:20px;
+           max-height:40px;
+       }
+       .pull-right{
+         float:left !important;
+       }
+       .new-btn{
+           margin-top:6px !important;
+       }
+   }
+   @media (min-width: 768px) and (max-width: 1368px) {
+       #Account {
+         float:right !important;
+         margin-left: 60px;
+       }
+       section{
+         height: 610px;
+       }
+       .custom-well-height{
+           height:465px !important;
+           overflow-y:auto;
+       }
+       .m-t-b-10{
+       margin-top:-10px;
+   }
+   .m-t-b-8{
+       margin-top:-7px;
+   }
+       .m-t-16{
+       margin-top:-13px !important;
+   }
+   .m-l-10{
+       margin-left:-10px;
+   }
+   .m-t-22{
+       margin-top:-24px !important;
+   }
+   .m-t-24{
+       margin-top:-25px !important;
+   }
+   .cust-fieldset{
+       margin-top:-9px;
+       font-size:12px;
+   }
+   .custdetail-fieldset-height{
+       height:415px !important;
+   }
+   .cust-fieldset-height{
+       height:383px !important;
+   }
+   .customer-fieldset-height{
+       height:474px !important;
+   }
+   
+       }
+   

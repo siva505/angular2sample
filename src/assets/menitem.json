@@ -1,0 +1,15 @@
+
+
+[{"id":1,"name":"Denim","price":"600", "image":"./assets/images/men/shirt1.jpg"},
+{"id":2,"name":"Lenin","price":"500", "image":"./assets/images/men/shirt2.jpg"},
+{"id":3,"name":"Elagr","price":"700", "image":"./assets/images/men/shirt3.jpg"},
+{"id":4,"name":"Peter","price":"499", "image":"./assets/images/men/shirt4.jpg"},
+{"id":5,"name":"Uspa","price":"400", "image":"./assets/images/men/shirt5.jpg"},
+{"id":6,"name":"Denim","price":"600", "image":"./assets/images/men/shirt1.jpg"},
+{"id":7,"name":"Lenin","price":"500", "image":"./assets/images/men/shirt2.jpg"},
+{"id":8,"name":"Elagr","price":"700", "image":"./assets/images/men/shirt3.jpg"},
+{"id":9,"name":"Peter","price":"499", "image":"./assets/images/men/shirt4.jpg"},
+{"id":10,"name":"Uspa","price":"400", "image":"./assets/images/men/shirt5.jpg"},
+{"id":11,"name":"Elagr","price":"700", "image":"./assets/images/men/shirt3.jpg"},
+{"id":12,"name":"Peter","price":"499", "image":"./assets/images/men/shirt4.jpg"}
+]

@@ -1,0 +1,13 @@
+[{"name":"Denim","price":"600", "image":"./assets/images/men/shirt3.jpg"},
+{"name":"Lenin","price":"500", "image":"./assets/images/kids/shirt2.jpg"},
+{"name":"Elagr","price":"700", "image":"./assets/images/women/shirt5.jpg"},
+{"name":"Peter","price":"499", "image":"./assets/images/shoes/shirt4.jpg"},
+{"name":"Uspa","price":"400", "image":"./assets/images/kids/shirt5.jpg"},
+{"name":"Denim","price":"600", "image":"./assets/images/men/shirt1.jpg"},
+{"name":"Lenin","price":"500", "image":"./assets/images/women/shirt2.jpg"},
+{"name":"Elagr","price":"700", "image":"./assets/images/kids/shirt3.jpg"},
+{"name":"Peter","price":"499", "image":"./assets/images/shoes/shirt1.jpg"},
+{"name":"Uspa","price":"400", "image":"./assets/images/men/shirt5.jpg"},
+{"name":"Elagr","price":"700", "image":"./assets/images/women/shirt3.jpg"},
+{"name":"Peter","price":"499", "image":"./assets/images/shoes/shirt3.jpg"}
+]
